@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main-container{
+    height: 100vh;
+    background-color: bisque;
+}
+.flag-container{
+    height: 250px;
+    width:500px;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-40%);    
+}
+.flag-circle{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+
+}
+.flag-handel{
+    height: 200px;
+    width: 40px;
+    background-color: black;
+    top: 90%;
+    border-top-right-radius: 30px;
+    position: relative;
+
+}
+.flag-footer{
+    height: 50%;
+    width: 80%;
+    background-color: black;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+
+}
+.flag-handel{
+    height: 200px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+.flag-footer{
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%);
+}
